@@ -1,0 +1,37 @@
+## Settings file was created by plugin Progressive Deadline v2.0.0
+## Plugin GUID: LethalOrg.ProgressiveDeadline
+
+[Customizable Values]
+
+## This is the minimum deadline you will have.
+# Setting type: Single
+# Default value: 2
+Minimum Deadline = 2
+
+## This is the maximum deadline you will have.
+# Setting type: Single
+# Default value: 3.402823E+38
+Maximum Deadline = 3.402823E+38
+
+## Minimum scrap value you can achieve per day. This will ignore the calculation for daily scrap if it's below this number. (Default: 100f)
+# Setting type: Single
+# Default value: 100
+Minimum Daily ScrapValue = 100
+
+## This is the minimum amount the minimum scrap value will increase every time a quota is complete. (Default: 30f)
+# Setting type: Single
+# Default value: 30
+Base Minimum Scrap Value Increase = 30
+
+## Defines the Steepness of the minimum incremental daily value scalling with each completed quota. (Default: 200f)
+# Setting type: Single
+# Default value: 200
+Incremental Daily Value Steepness = 200
+
+[Use linear calculations for minimum daily scrap]
+
+## If set to true, the 'Base Minimum Scrap Value Increase' will remain fixed and will not scale based on 'Incremental Daily Value Steepness' and quota completion. (Default: false)
+# Setting type: Boolean
+# Default value: false
+Static Base Minimum Scrap = false
+
