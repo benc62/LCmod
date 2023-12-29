@@ -1,3 +1,5 @@
 Mods for Lethal Company kept somewhat up to date
 
-Download the folders and overwrite the onces you currently have in Lethal Company/BepInEx/
+Download the folders by clicking the green Code button and then click "Download ZIP"
+
+Unzip the file and overwrite anything you currently have in <steamapps>/Lethal Company/BepInEx/{Bundles,config,plugins,patchers}
